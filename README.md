@@ -25,6 +25,7 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 ### Directory Structure
 
+```
 .
 ├─ package.json
 ├─ package-lock.json
@@ -39,6 +40,7 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
       └─ logo.png
   └─ logo.png
   └─ resources
+```
 
 ### After this project
 

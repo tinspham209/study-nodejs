@@ -34,10 +34,10 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 └── src
   ├── index.js
   ├── public
-    ├── css
-      └── app.css
-    └── img
-      └── logo.png
+      ├── css
+        └── app.css
+      └── img
+        └── logo.png
   └── resources
       ├── scss
           ├── _variables.scss

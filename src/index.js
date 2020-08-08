@@ -8,7 +8,11 @@ const port = 8000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(express.urlencoded());
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
 app.use(express.json());
 
 // HTTP logger
@@ -37,6 +41,7 @@ app.get("/search", (req, res) => {
 });
 
 app.post("/search", (req, res) => {
+  console.log("res.body", req.body);
   res.send("");
 });
 

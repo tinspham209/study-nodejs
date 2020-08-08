@@ -27,10 +27,7 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 ```
 .
-├── package.json
-├── package-lock.json
 ├── nodemon.json
-├── README.md
 └── src
   ├── index.js
   ├── public

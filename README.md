@@ -35,9 +35,9 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
   ├── index.js
   ├── public
       ├── css
-        └── app.css
+          └── app.css
       └── img
-        └── logo.png
+          └── logo.png
   └── resources
       ├── scss
           ├── _variables.scss

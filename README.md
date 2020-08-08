@@ -23,6 +23,23 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 - `Morgan`: HTTP request logger middleware for node.js
 - `Express-handlerbars`: This view engine uses sensible defaults that leverage the "Express-way" of structuring an app's views.
 
+### Directory Structure
+
+.
+├─ package.json
+├─ package-lock.json
+├─ nodemon.json
+├─ README.md
+└─ src
+  ├─ index.js
+  ├─ public
+    ├─ css
+      └─ app.css
+    └─ img
+      └─ logo.png
+  └─ logo.png
+  └─ resources
+
 ### After this project
 
 -

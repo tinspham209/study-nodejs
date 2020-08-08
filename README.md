@@ -8,6 +8,8 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 - NodeJS
 - Nodemon
+- morgan
+- express-handlebars
 
 ### Deploy
 
@@ -17,8 +19,9 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 ### Dependencies
 
-- Nodemon: is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
-- Morgan: HTTP request logger middleware for node.js
+- `Nodemon`: is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+- `Morgan`: HTTP request logger middleware for node.js
+- `Express-handlerbars`: This view engine uses sensible defaults that leverage the "Express-way" of structuring an app's views.
 
 ### After this project
 

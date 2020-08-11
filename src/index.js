@@ -7,6 +7,10 @@ const handlebars = require("express-handlebars");
 const port = 8000;
 
 const route = require("./routes");
+const db = require("./config/db");
+
+// Connect to db
+db.connect();
 
 app.use(express.static(path.join(__dirname, "public")));
 

@@ -31,6 +31,21 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 - `mongoDB` : Non-sql database
 - `mongoose` : is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
+### After this project
+
+I have understand about
+
+- MVC Model (Models, Views, Controllers)
+- Web Services with NodeJS & Express
+- using `Morgan` for HTTP request logger
+- using Mongo DB: `NoSQL database` for storage data
+- `POST` `GET` method
+- Routing
+- Query parameters
+- Template Engine, split up to MVC model
+- Validation data with `mongoose`
+- CRUD functions (Create, Read, Update, Delete)
+
 ### Directory Structure
 
 ```
@@ -52,7 +67,7 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
       ├── index.js
       ├── news.js
       └── site.js
-  └── resources
+  ├── resources
       ├── scss
           ├── _variables.scss
           └── app.scss
@@ -64,24 +79,12 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
               └── header.hbs
           ├── home.hbs
           └── news.hbs
+  └── util
+      └── mongoose.js
 ├── package.json
 ├── package-lock.json
 └── nodemon.json
 ```
-
-### After this project
-
-I have understand about
-
-- MVC Model (Models, Views, Controllers)
-- Web Services with NodeJS & Express
-- using `Morgan` for HTTP request logger
-- using Mongo DB: `NonSQL database` for storage data
-- `POST` `GET` method
-- Routing
-- Query parameters
-- Template Engine, to split up with MVC
-- Validation data with `mongoose`
 
 ### Set up
 

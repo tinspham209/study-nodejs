@@ -33,8 +33,7 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 ```
 .
-├── nodemon.json
-└── src
+├── src
   ├── index.js
   ├── public
       ├── css
@@ -45,6 +44,8 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
       ├── controllers
           ├── NewsController.js
           └── SiteController.js
+      └── models
+          ├── Course.js
   ├── routes
       ├── index.js
       ├── news.js
@@ -61,7 +62,9 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
               └── header.hbs
           ├── home.hbs
           └── news.hbs
-
+├── package.json
+├── package-lock.json
+└── nodemon.json
 ```
 
 ### After this project

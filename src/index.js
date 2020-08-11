@@ -9,9 +9,9 @@ const port = 8000;
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(
-  express.urlencoded({
-    extended: true,
-  })
+	express.urlencoded({
+		extended: true,
+	})
 );
 app.use(express.json());
 
@@ -20,31 +20,31 @@ app.use(morgan("combined"));
 
 // Template engine
 app.engine(
-  "hbs",
-  handlebars({
-    extname: ".hbs",
-  })
+	"hbs",
+	handlebars({
+		extname: ".hbs",
+	})
 );
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "resources/views"));
 
 app.get("/", (req, res) => {
-  res.render("home");
+	res.render("home");
 });
 
 app.get("/news", (req, res) => {
-  res.render("news");
+	res.render("news");
 });
 
 app.get("/search", (req, res) => {
-  res.render("search");
+	res.render("search");
 });
 
 app.post("/search", (req, res) => {
-  console.log("res.body", req.body);
-  res.send("");
+	console.log("res.body", req.body);
+	res.send("");
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+	console.log(`Example app listening at http://localhost:${port}`);
 });

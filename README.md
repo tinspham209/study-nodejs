@@ -75,6 +75,7 @@ I have understand about
 
 - MVC Model (Models, Views, Controllers)
 - Web Services with NodeJS & Express
+- using `Morgan` for HTTP request logger
 - using Mongo DB: `NonSQL database` for storage data
 - `POST` `GET` method
 - Routing

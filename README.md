@@ -37,7 +37,12 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
           └── logo.png
   ├── app
       ├── controllers
+          ├── NewsController.js
+          └── SiteController.js
   ├── routes
+      ├── index.js
+      ├── news.js
+      └── site.js
   └── resources
       ├── scss
           ├── _variables.scss

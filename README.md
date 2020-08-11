@@ -69,7 +69,16 @@ https://www.youtube.com/playlist?list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3
 
 ### After this project
 
--
+I have understand about
+
+- MVC Model (Models, Views, Controllers)
+- Web Services with NodeJS & Express
+- using Mongo DB: `NonSQL database` for storage data
+- `POST` `GET` method
+- Routing
+- Query parameters
+- Template Engine, to split up with MVC
+- Validation data with `mongoose`
 
 ### Set up
 
